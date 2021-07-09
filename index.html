@@ -1,164 +1,148 @@
-<!DOCTYPE html>
-<html lang="en-US">
-
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="author" content="Chris Tong">
-    <meta name="description" content="Chris Tong is a software engineer with a B.S. in Computer Science 
-        from North Carolina State University.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Need to change the image later. OpenGraph metadata for Facebook.  -->
-    <meta property="og:image" content="images/dope.jpg">
-    <meta property="og:description" content="Chris Tong is a software engineer with a B.S. in Computer 
-        Science from North Carolina State University.">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <!-- Twitter Cards metadata. -->
-    <meta name="twitter:title" content="Chris Tong: Software Engineer">
-
-    <!-- Icon. Needs to be updated. -->
-    <link rel="shortcut icon" href="docs/icon.ico" type="image/x-icon">
-
-    <title>Chris Tong: Software Engineer</title>
-    <link href="styles/style.css" rel="stylesheet">
+    <title>Chris Tong &middot; Software Engineer</title>
+    <link href="css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c9bcd50925.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
-</head>
 
-<body>
-    <nav>
-        <h1 class="navbar-title">Chris Tong - Software Engineer</h1>
-        <!-- Displays inverted. Need to fix that. -->
-        <div class="navbar-items">
-            <a href="index.html">Home</a>
-            <a href="#experience">Experience</a>
-            <a href="docs/resume.pdf" target="_blank">Resume</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact Me</a>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Chris Tong &middot; Software Engineer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#experience">Experience</a>
+                    <a class="nav-link" href="docs/resume.pdf">Resume</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </div>
+            </div>
         </div>
     </nav>
 
-    <main>
-        <div class="flex-container" id="home">
-            <div class="flex-child-profile">
-                <div class="profile">
-                    <img class="profile-image" src="docs/chris.jpg" alt="Chris Tong: Software Engineer">
-                    <h2 class="profile-name">Chris Tong</h2> 
-                    <h3 class="profile-title">Undergraduate Computer Science Student</h2>
-                    <a class="profile-organization" href="https://www.csc.ncsu.edu/">North Carolina State University</a>
-                    <div class="profile-quick-links">
-                        <!-- Has buttons for email, github, and linkedin. Can add more later. -->
-                        <a href="mailto:catong51@gmail.com"><i class="fas fa-envelope"></i></a>
-                        <a href="https://www.linkedin.com/in/christopher-tong-863899161"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/ctong751"><i class="fab fa-github-square"></i></a>
+    <div class="container home" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 profile">
+                    <div id="profile">
+                        <img class="card-img rounded-circle profile-image" src="docs/chris.jpg" alt="Chris Tong: Software Engineer">
+                        <h2>Chris Tong</h2> 
+                        <p class="profile-title">Undergraduate Computer Science Student</p>
+                        <a class="profile-organization" href="https://www.csc.ncsu.edu/">North Carolina State University</a>
+                        <div class="profile-quick-links">
+                            <!-- Has buttons for email, github, and linkedin. Can add more later. -->
+                            <a href="mailto:catong51@gmail.com"><i class="fas fa-envelope icon"></i></a>
+                            <a href="https://www.linkedin.com/in/christopher-tong-863899161"><i class="fab fa-linkedin icon"></i></a>
+                            <a href="https://github.com/ctong751"><i class="fab fa-github-square icon"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="flex-child-about">
-                <div class="about">
+                <div class="col-12 col-lg-8 about">
                     <h1>About Me</h1>
-                    <p>Blah blah blah. FIX ME</p>
+                    <p>I am... blah blah blah</p>
+                    
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="skills-container" id="skills">
-            <h1>Skills</h1>
-            <div class="skills-flex-container">
-                <div class="flex-child-s1">
-                    <ul class="skills">
-                        <li>Java</li>
-                        <li>JavaScript</li>
-                        <li>Git/GitHub</li>
-                        <li>Networking</li>
-                    </ul>
-                </div>
-                <div class="flex-child-s2">
-                    <ul class="skills">
-                        <li>C/C++</li>
-                        <li>C#</li>
-                        <li>Artificial Intelligence</li>
-                        <li>Experience with Linux/Unix Systems</li>
-                    </ul>
-                </div>
-                <div class="flex-child-s3">
-                    <ul class="skills">
-                        <li>Python</li>
-                        <li>Visual Basic</li>
-                        <li>CyberSecurity</li>
-                        <li>Software Development Processes</li>
-                    </ul>
-                </div>
+    <div class="container-fluid skills" id="skills">
+        <h1>Skills</h1>
+        <div class="row">
+            <div class="col-12 col-sm-4">
+                <h2>Java</h2>
+            </div>
+            <div class="col-12 col-sm-4">
+                <h2>C/C++</h2>
+            </div>
+            <div class="col-12 col-sm-4">
+                <h2>Python</h2>
             </div>
         </div>
+        <div class="row">
+            <div class="col-12 col-sm-4">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="col-12 col-sm-4">
+                <h2>C#</h2>
+            </div>
+            <div class="col-12 col-sm-4">
+                <h2>Visual Basic</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-4">
+                <h2>Git/GitHub</h2>
+            </div>
+            <div class="col-12 col-sm-4">
+                <h2>Artificial Intelligence</h2>
+            </div>
+            <div class="col-12 col-sm-4">
+                <h2>Cybersecurity</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-4">
+                <h2>Networking</h2>
+            </div>
+            <div class="col-12 col-sm-4">
+                <h2>Linux/Unix Systems</h2>
+            </div>
+            <div class="col-12 col-sm-4">
+                <h2>Software Development Processes</h2>
+            </div>
+        </div>
+    </div>
 
-        <div class="experience-container" id="experience">
-            <!-- TODO: Implement -->
-            <h1>Experience</h1>
-            <div class="work-experience-container">
-                <div class="row-experience">
-                    <div class="experience-marker">
-                        <div class="marker-line">
-                            <div class="left-space">&nbsp;</div>
-                            <div clas="right-space">&nbsp;</div>
-                        </div>
-                        <div class="mid-dot">
-                            <span class="experience-marker-dot">&nbsp;</span>
-                        </div>
-                        <div class="marker-line">
-                            <div class="left-space">&nbsp;</div>
-                            <div clas="right-space">&nbsp;</div>
+    <div class="container-fluid work-experience" id="work-experience">
+        <h1>Work Experience</h1>
+        <div class="row experience">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Coding Instructor</h2>
+                        <a href="https://www.codeninjas.com/nc-concord" class="card-subtitle">Code Ninjas</a>
+                        <h3 class="card-subtitle">Feb 2017 - Aug 2021 &middot; Concord, NC</h3>
+                        <div class="card-text">
+                            <ul>
+                                <li>
+                                    <p>Taught coding and stuff lol :p</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-
-
-                    <div class="card-container">
-                        <div class="card">
-                            <div class="card-body">
-                                <p class="card-title">Coding Instructor</p>
-                                <p class="card-employer">Code Ninjas</p>
-                                <p class="card-dates-location">Feb 2017 - Aug 2021 &middot Concord, NC</p>
-                                <ul class="job-description">
-                                    <!-- TODO: Fill in the rest. -->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-            
-            <section id="courses">
-                <h2>Relevant Courses</h2>
-            </section>
         </div>
+    </div>
 
-        <div class="projects-container" id="projects">
-            <!-- TODO: Implement -->
-            <h1>Projects</h1>
-            <div>
-                <a class="project-name" href="https://ctong751.github.io/visual-sorting-algorithms">Visual Sorting Algorithm</a>
-                <p>TODO: Add brief discription along with screenshot of project.</p>
+    <div class="container-fluid relevant-courses" id="relevant-courses">
+        <h1>Relevant Courses</h1>
+    </div>
 
+    <div class="container-fluid projects" id="projects">
+        <h1>Projects</h1>
+    </div>
 
-            </div>
-        </div>
+    <div class="container-fluid contact" id="contact">
+        <h1>Contact Me</h1>
+    </div>
 
-        <article id="contact">
-            <h1>Contact Me</h1>
-            <!-- TODO: Implement -->
-            <!-- Use a form to send myself an email. -->
-            <form>
-
-            </form>
-            <!-- Show my calendar to show when I'm busy/schedule meeting, etc. -->
-        </article>
-    </main>
-
-    <footer>
-        <a href="index.html">
-            <h2>Back to Top</h2>
-        </a>
-    </footer>
-</body>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
 </html>

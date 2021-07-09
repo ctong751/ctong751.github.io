@@ -14,6 +14,7 @@ html {
     background-color: white;
     text-align: center;
     font-weight: bold;
+    padding-top: 4em;
 }
 
 .home h2 {
@@ -63,6 +64,7 @@ html {
 .skills h1 {
     font-size: xx-large;
     color: #555;
+    padding: 0.4em;
 }
 
 .skills h2 {
@@ -79,6 +81,7 @@ html {
 
 .work-experience h1 {
     font-size: xx-large;
+    padding: 0.4em;
 }
 
 .experience {
@@ -104,6 +107,13 @@ html {
 .relevant-courses h1 {
     font-size: xx-large;
     color: #555;
+    padding: 0.4em;
+}
+
+.relevant-courses h2 {
+    font-size: large;
+    color: #795548;
+    padding: 0.6em;
 }
 
 .projects {
@@ -114,6 +124,7 @@ html {
 
 .projects h1 {
     font-size: xx-large;
+    padding: 0.4em;
 }
 
 .contact {
@@ -125,4 +136,5 @@ html {
 .contact h1 {
     font-size: xx-large;
     color: #555;
+    padding: 0.4em;
 }

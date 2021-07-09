@@ -1,0 +1,128 @@
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: white;
+}
+
+.navbar {
+    box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.home {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.home h2 {
+    font-size: xx-large;
+    margin: 0;
+}
+
+.home p {
+    font-size: medium;
+    color: #555555;
+    margin: 0;
+    padding: 0;
+}
+
+.home a {
+    text-decoration: none;
+    color: #555555;
+}
+
+.profile {
+    padding: 1em;
+}
+
+.profile-image {
+    max-width: 270px;
+    max-height: 270px;
+}
+
+.icon {
+    font-size: 1.5em;
+}
+
+.icon:hover {
+    font-size: 1.8em;
+}
+
+.about {
+    padding: 1em;
+}
+
+.skills {
+    background-color: #EAF2FA;
+    text-align: center;
+    padding: 0.4em;
+}
+
+.skills h1 {
+    font-size: xx-large;
+    color: #555;
+}
+
+.skills h2 {
+    font-size: larger;
+    color: #795548;
+    padding: 0.3em;
+}
+
+.work-experience {
+    background-color: white;
+    text-align: center;
+    padding: 0.4em;
+}
+
+.work-experience h1 {
+    font-size: xx-large;
+}
+
+.experience {
+    text-align: left;
+}
+
+.card-subtitle {
+    text-decoration: none;
+    text-align: left;
+    font-size: medium;
+    color: #555;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.relevant-courses {
+    background-color: #EAF2FA;
+    text-align: center;
+    padding: 0.4em;
+}
+
+.relevant-courses h1 {
+    font-size: xx-large;
+    color: #555;
+}
+
+.projects {
+    background-color: white;
+    text-align: center;
+    padding: 0.4em;
+}
+
+.projects h1 {
+    font-size: xx-large;
+}
+
+.contact {
+    background-color: #EAF2FA;
+    text-align: center;
+    padding: 0.4em;
+}
+
+.contact h1 {
+    font-size: xx-large;
+    color: #555;
+}

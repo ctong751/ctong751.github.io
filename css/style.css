@@ -10,11 +10,15 @@ html {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+.navbar-brand {
+    font-size: 14px;
+}
+
 .home {
     background-color: white;
     text-align: center;
     font-weight: bold;
-    padding-top: 4em;
+    padding: 6em 0;
 }
 
 .home h2 {
@@ -55,10 +59,17 @@ html {
     padding: 1em;
 }
 
+.about p {
+    padding: 1em;
+    font-size: medium;
+    word-spacing: 4px;
+    line-height: 30px;
+}
+
 .skills {
     background-color: #EAF2FA;
     text-align: center;
-    padding: 0.4em;
+    padding: 4em;
 }
 
 .skills h1 {
@@ -76,7 +87,16 @@ html {
 .work-experience {
     background-color: white;
     text-align: center;
-    padding: 0.4em;
+    padding: 4em;
+}
+
+.marker {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fa-circle {
+    font-size: x-large;
 }
 
 .work-experience h1 {
@@ -101,7 +121,7 @@ html {
 .relevant-courses {
     background-color: #EAF2FA;
     text-align: center;
-    padding: 0.4em;
+    padding: 4em;
 }
 
 .relevant-courses h1 {
@@ -119,7 +139,7 @@ html {
 .projects {
     background-color: white;
     text-align: center;
-    padding: 0.4em;
+    padding: 4em;
 }
 
 .projects h1 {
@@ -130,11 +150,47 @@ html {
 .contact {
     background-color: #EAF2FA;
     text-align: center;
-    padding: 0.4em;
+    padding: 4em 3em;
 }
 
 .contact h1 {
     font-size: xx-large;
     color: #555;
     padding: 0.4em;
+}
+
+.contact form {
+    text-align: left;
+}
+
+.contact h2 {
+    color: #795548;
+}
+
+.contact-me {
+    padding: 2em 0;
+}
+
+.contact-info {
+    padding: 1em 0;
+}
+
+.contact span {
+    display: block;
+    width: 100%;
+    border-top: 2px solid #795548;
+    padding: 1em;
+}
+
+.contact a {
+    padding: 0.2em;
+    color: #795548;
+}
+
+.footer {
+    color: #979797;
+    font-size: small;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 2em;
 }
